@@ -28,7 +28,7 @@
 }
 
 .section-stories {
-  padding: 10rem 0 15rem 0;
+  padding: 15rem 0;
   position: relative;
 }
 
@@ -49,7 +49,7 @@
       transparent 50%
     ),
     url(../img/nat-10.jpg);
-  background-size: 100%;
+  background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
   height: 50rem;
