@@ -6,8 +6,18 @@
   //select everything except the last child
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      //width < 900?
+      margin-bottom: $gutter-vertical-small;
+    }
   }
 
+  @include respond(tab-port) {
+    //width < 900?
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
   @include clearfix;
 
   //select all the elements with the class attribute start with "col-"
@@ -15,6 +25,16 @@
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+      @include respond(tab-port) {
+        //width < 900?
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      //width < 900?
+      width: 100% !important;
     }
   }
 

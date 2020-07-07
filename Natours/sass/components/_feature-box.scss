@@ -8,6 +8,10 @@
   //make it smooth
   transition: transform 0.3s;
 
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
+
   &__icon {
     font-size: 6rem;
     margin: 0.5rem;
@@ -22,6 +26,9 @@
     -webkit-background-clip: text;
     color: transparent;
     transition: all 0.2s;
+    @include respond(tab-port) {
+      margin: 0;
+    }
   }
 
   &:hover {
