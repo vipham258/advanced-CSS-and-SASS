@@ -15,7 +15,7 @@
 
   @include respond(tab-port) {
     //width < 900?
-    max-width: 50rem;
+    max-width: 55rem;
     padding: 0 3rem;
   }
   @include clearfix;
