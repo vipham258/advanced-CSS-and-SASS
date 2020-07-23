@@ -30,9 +30,9 @@
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     //move it on the side a bit
-    transform: translateX(-3rem) skewX(12deg);
+    transform: translateX(-4rem) skewX(13deg);
     @include respond(phone) {
-      transform: translateX(-3rem) skewX(0);
+      transform: translateX(-4rem) skewX(0);
     }
   }
 
