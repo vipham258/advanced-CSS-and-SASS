@@ -33,6 +33,7 @@
     transform: translateX(-4rem) skewX(13deg);
     @include respond(phone) {
       transform: translateX(-4rem) skewX(0);
+      overflow: hidden;
     }
   }
 
